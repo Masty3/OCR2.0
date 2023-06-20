@@ -51,6 +51,13 @@ def extract_text_from_pdf(filename):
 
         return text
 
+#def count_words_noFilter(text):
+    
+ #   wordsNoFilter = df[['Text']].values.tolist()
+ #   print(wordsNoFilter)
+
+    # Count the filtered words
+  #  return collections.Counter(wordsNoFilter)
 
 def count_words(text):
     # Process the text with spaCy -> NLP model
